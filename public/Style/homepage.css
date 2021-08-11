@@ -19,5 +19,49 @@
 }
 
 .Content{
-    margin-top: 50px;
+    margin-top: 100px;
+}
+
+.card{
+    margin: 30px 0;
+}
+.h1{
+    margin-bottom: 30px;
+}
+/* Nav_tap */
+.nav_tab{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_tab .nav_list{
+    display:flex;
+    padding: 0 1rem;
+
+}
+.nav_tab .nav_list .nav-item a{
+    font-size:16px;
+    color:  rgba(0,0,0,.55);
+    font-weight: 700;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.nav_tab .nav_list .nav-item a:hover{
+    color:#000;
+}
+
+.nav_tab .nav_list .nav-item a:active{
+    color:#000;
+}
+
+.nav_tab .List-icon{
+    width: 40%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
 }
